@@ -87,11 +87,8 @@ class _SideBarState extends State<SideBar> with SingleTickerProviderStateMixin<S
                           ),
                         ),
                         leading: CircleAvatar(
-                          child: Icon(
-                            Icons.perm_identity,
-                            color: Colors.white,
-                          ),
-                          radius: 35,
+                          backgroundImage:AssetImage('images/man.jpg'),
+                          radius: 29,
                         ),
                       ),
                       Divider(

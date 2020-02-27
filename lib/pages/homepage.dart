@@ -54,7 +54,7 @@ class _HomeState extends State<Home> {
             Icons.mic,
             color: micro == true ? Theme.of(context).accentColor : Colors.white,
           ),
-          Icon(Icons.keyboard),
+          Icon(Icons.chat),
         ],
         color: Theme.of(context).primaryColor,
         backgroundColor: Colors.white,
@@ -77,7 +77,6 @@ class _HomeState extends State<Home> {
               micro = false;
             });
           }
-
           setState(() {
             _page = index;
           });

@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Color(0xff4D0084),
         accentColor: Color(0xff852EAD),
         buttonColor: Color(0xff7ACEEF),
+        cardColor: Color(0xffFFE5E5),
         iconTheme: IconThemeData(
           color: Colors.white,
         ),
